@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+#highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -17,6 +17,8 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+plugins:
+  - jekyll-paginate
 paginate:         5
 
 # Custom vars
